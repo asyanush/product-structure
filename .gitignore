@@ -1,0 +1,64 @@
+# local env files
+#.env.local
+.env.*.local
+*.env
+!.env
+
+# npm
+/node_modules
+package-lock.json
+*.log
+*.gz
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# typescript
+*.tsbuildinfo
+
+# vercel
+.vercel
+
+# production
+/build
+/dist
+
+# misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.code-workspace
+.idea
+.vscode
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# Keys
+*.key
+*.pem
