@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Toolbar from '@mui/material/Toolbar';
 import Divider from '@mui/material/Divider';
 import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 import { camerasData, CameraItemList, getCameraItemsByName } from '@/utils/camerasData';
 import CameraItemTable from './Components/CameraItemTable';
 import CameraList from './Components/CameraList';
@@ -46,7 +46,7 @@ const Home = () => {
         </Box>
 
         <Grid container spacing={2}>
-          <Grid size={{ xl: 12, xs: 12, lg: 12, md: 12, sm: 12 }}>
+        <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography variant="h6" align="left" color="#0" noWrap sx={{ flex: 1, margin: 1 }}>
               Tabuľka štruktúry Kamery:
             </Typography>
@@ -59,7 +59,7 @@ const Home = () => {
       <Box sx={{ flexGrow: 1, mt: 1, mb: 7, ml: 4, mr: 4 }}>
         <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
           <Grid container spacing={2}>
-            <Grid size={{ xl: 12, xs: 12, lg: 12, md: 12, sm: 12 }}>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
               <Typography variant="h6" align="left" color="#0" noWrap sx={{ flex: 1, margin: 1 }}>
                 Tabuľka kamerovych dielov:
               </Typography>
@@ -72,7 +72,7 @@ const Home = () => {
       <Box sx={{ flexGrow: 1, mt: 1, mb: 7, ml: 4, mr: 4 }}>
         <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
           <Grid container spacing={2}>
-            <Grid size={{ xl: 12, xs: 12, lg: 12, md: 12, sm: 12 }}>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
               <Typography variant="h6" align="left" color="#0" noWrap sx={{ flex: 1, margin: 1 }}>
                 Vizualizácia Kamerovych dielov:
               </Typography>
